@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #566868;
+}
+
+body {
+  background-color: #e0f1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff;
+  margin: 150px auto;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: start;
+  margin: 18px 0 0 30px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.name input {
+  width: 260px;
+  height: 40px;
+  border: solid 1px black;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: 6px;
+}
+
+span {
+  color: #0c7d69;
+}
+
+button {
+  background-color: #0c7d69;
+  color: white;
+  border: none;
+  margin: auto;
+  width: 94%;
+  height: 50px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Email {
+  display: flex;
+  flex-direction: column;
+}
+.Email input {
+  width: 95%;
+  height: 35px;
+  border: solid 1px black;
+
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin: auto;
+  margin-top: 6px;
+}
+.Email label {
+  margin-left: 18px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+.radio div {
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width: 280px;
+  height: 40px;
+}
+
+.radio input,
+.radio div label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.qu {
+  margin: 14px 0 0 18px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: -20px;
+}
+textarea {
+  margin: 8px auto;
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.checkbox {
+  margin-left: 18px;
+}
